@@ -1,0 +1,20 @@
+
+@media only screen and (max-width: 925px){
+    .blogs .slick-track {
+        margin-left: -2em;
+    }
+    
+    .blogs .blog-item {
+        margin-right: 2em;
+    }
+}
+
+@media only screen and (min-width: 925px){
+     section.main-section.blogs .slick-track {
+        margin: 0 -27px !important;
+    }
+    
+    section.main-section.blogs .blog-item {
+        margin: 0 27px !important;
+    }
+}
