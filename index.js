@@ -42,3 +42,9 @@ $( document ).ready(function() {
         ]
       });
 });
+
+document.querySelectorAll('.block-heading').forEach((item)=>{
+  item.addEventListener('click', () => {
+    toggleClass(event.currentTarget, 'active');
+  })
+ })
